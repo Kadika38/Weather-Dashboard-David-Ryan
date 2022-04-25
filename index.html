@@ -20,9 +20,9 @@
             <div id="leftSecTop">
                 <h2 class="useFull" >Search for a City:</h2>
                 <br>
-                <input class="useFull"  value="San Diego">
+                <input class="useFull" id="city" value="San Diego">
                 <br><br>
-                <button class="useFull" >Search</button>
+                <button class="useFull" id="searchButton">Search</button>
                 <br><br>
             </div>
             <br>
@@ -33,17 +33,82 @@
 
         <div id="rightSec">
             <div id="today" class="useFull" >
-                
+                <h2><span id="place">San Diego</span> (<span id="dateToday">4/25/2022</span>) <span id="weatherIconToday">*sun*</span></h2>
+                <br>
+                <p>Temp: <span id="tempToday"></span>&#176; F</p>
+                <br>
+                <p>Wind: <span id="windToday"></span></p>
+                <br>
+                <p>Humidity: <span id="humidityToday"></span></p>
+                <br>
+                <p>UV Index: <span id="uvIndexToday"></span></p>
+                <br>
             </div>
             <br>
             <div id="future">
                 <h3>5-Day Forecast:</h3>
+                <br>
                 <div id="forecastsContainer">
-                    <div class="forecast"></div>
-                    <div class="forecast"></div>
-                    <div class="forecast"></div>
-                    <div class="forecast"></div>
-                    <div class="forecast"></div>
+                    <div class="forecast">
+                        <p><span id="dateTwo">4/26/2022</span></p>
+                        <br>
+                        <p><span id="weatherIconTwo">*sun*</span></p>
+                        <br>
+                        <p>Temp: <span id="tempTwo">82 F</span></p>
+                        <br>
+                        <p>Wind: <span id="windTwo">6 mph</span></p>
+                        <br>
+                        <p>Humidity: <span id="humidityTwo">20%</span></p>
+                        <br>
+                    </div>
+                    <div class="forecast">
+                        <p><span id="dateThree">4/26/2022</span></p>
+                        <br>
+                        <p><span id="weatherIconThree">*sun*</span></p>
+                        <br>
+                        <p>Temp: <span id="tempThree">82 F</span></p>
+                        <br>
+                        <p>Wind: <span id="windThree">6 mph</span></p>
+                        <br>
+                        <p>Humidity: <span id="humidityThree">20%</span></p>
+                        <br>
+                    </div>
+                    <div class="forecast">
+                        <p><span id="dateFour">4/26/2022</span></p>
+                        <br>
+                        <p><span id="weatherIconFour">*sun*</span></p>
+                        <br>
+                        <p>Temp: <span id="tempFour">82 F</span></p>
+                        <br>
+                        <p>Wind: <span id="windFour">6 mph</span></p>
+                        <br>
+                        <p>Humidity: <span id="humidityFour">20%</span></p>
+                        <br>
+                    </div>
+                    <div class="forecast">
+                        <p><span id="dateFive">4/26/2022</span></p>
+                        <br>
+                        <p><span id="weatherIconFive">*sun*</span></p>
+                        <br>
+                        <p>Temp: <span id="tempFive">82 F</span></p>
+                        <br>
+                        <p>Wind: <span id="windFive">6 mph</span></p>
+                        <br>
+                        <p>Humidity: <span id="humidityFive">20%</span></p>
+                        <br>
+                    </div>
+                    <div class="forecast">
+                        <p><span id="dateSix">4/26/2022</span></p>
+                        <br>
+                        <p><span id="weatherIconSix">*sun*</span></p>
+                        <br>
+                        <p>Temp: <span id="tempSix">82 F</span></p>
+                        <br>
+                        <p>Wind: <span id="windSix">6 mph</span></p>
+                        <br>
+                        <p>Humidity: <span id="humiditySix">20%</span></p>
+                        <br>
+                    </div>
                 </div>
             </div>
         </div>
