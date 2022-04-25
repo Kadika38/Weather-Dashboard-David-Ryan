@@ -1,0 +1,63 @@
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#topSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, lightblue, darkblue);
+    margin: 10px;
+    height: 60px;
+    color: white;
+}
+
+#stuffSec {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#leftSec {
+    width: 23%;
+    margin: 1%;
+}
+
+#leftSecTop {
+    border-bottom-style: solid;
+}
+
+.useFull {
+    width: 100%;
+}
+
+#rightSec {
+    width: 73%;
+    margin: 1%;
+}
+
+#today {
+    border-style: solid;
+    height: 200px;
+}
+
+#forecastsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forecast {
+    width: 18%;
+    background-color: darkgray;
+    height: 100px;
+}
