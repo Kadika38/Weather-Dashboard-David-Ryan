@@ -65,3 +65,15 @@ p {
     width: 18%;
     background-color: darkgray;
 }
+
+.wIconT {
+    width: 80px;
+    height: 80px;
+    margin-top: -10px;
+    margin-bottom: -25px;
+}
+
+.wIconL {
+    width: 80px;
+    height: 80px;
+}
