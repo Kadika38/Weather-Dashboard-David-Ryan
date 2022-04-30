@@ -18,12 +18,31 @@ p {
     font-weight: bold;
 }
 
+button {
+    height: 30px;
+    border-radius: 7px;
+    border-style: none;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: grab;
+    border-style: solid;
+    border-color: black;
+}
+
+#searchButton {
+    background-color: rgb(41, 166, 244);
+    color: white;
+}
+
 #topSec {
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to right, lightblue, darkblue);
-    margin: 10px;
+    margin-bottom: 10px;
     height: 60px;
     color: white;
 }
@@ -54,6 +73,7 @@ p {
 
 #today {
     border-style: solid;
+    padding-left: 10px;
 }
 
 #forecastsContainer {
@@ -64,6 +84,7 @@ p {
 .forecast {
     width: 18%;
     background-color: darkgray;
+    padding-left: 10px;
 }
 
 .wIconT {
@@ -76,4 +97,12 @@ p {
 .wIconL {
     width: 80px;
     height: 80px;
+}
+
+#uvIndexToday {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: greenyellow;
 }
