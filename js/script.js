@@ -74,7 +74,7 @@ btn.addEventListener("click", function() {
 function btnClickHandler(city) {
     //build and call geocoding API call - this gives us the latitutde and longitude for the current weather api call
     place.textContent = city;
-    var geo = "http://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=1&appid=" + apikey;
+    var geo = "https://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=1&appid=" + apikey;
     var lat;
     var lon;
     fetch(geo)
@@ -105,7 +105,7 @@ function btnClickHandler(city) {
             if (uvT.textContent > 6) {
                 uvT.setAttribute("style", "background-color: red");
             }
-            weatherIconT.setAttribute("src", "http://openweathermap.org/img/wn/" + data.current.weather[0].icon + "@2x.png");
+            weatherIconT.setAttribute("src", "https://openweathermap.org/img/wn/" + data.current.weather[0].icon + "@2x.png");
             //update todays date
             dateT.textContent = moment().format("M/D/YYYY");
             //get 5 day forecast using openweather 5 day forecast api call
@@ -137,11 +137,11 @@ function btnClickHandler(city) {
                 dateFive.textContent = dateFiveOrig;
                 dateSix.textContent = dateSixOrig;
                 //getting and displaying weather icons
-                weatherIconTwo.setAttribute("src", "http://openweathermap.org/img/wn/" + data.list[5].weather[0].icon + "@2x.png");
-                weatherIconThree.setAttribute("src", "http://openweathermap.org/img/wn/" + data.list[13].weather[0].icon + "@2x.png");
-                weatherIconFour.setAttribute("src", "http://openweathermap.org/img/wn/" + data.list[21].weather[0].icon + "@2x.png");
-                weatherIconFive.setAttribute("src", "http://openweathermap.org/img/wn/" + data.list[29].weather[0].icon + "@2x.png");
-                weatherIconSix.setAttribute("src", "http://openweathermap.org/img/wn/" + data.list[37].weather[0].icon + "@2x.png");
+                weatherIconTwo.setAttribute("src", "https://openweathermap.org/img/wn/" + data.list[5].weather[0].icon + "@2x.png");
+                weatherIconThree.setAttribute("src", "https://openweathermap.org/img/wn/" + data.list[13].weather[0].icon + "@2x.png");
+                weatherIconFour.setAttribute("src", "https://openweathermap.org/img/wn/" + data.list[21].weather[0].icon + "@2x.png");
+                weatherIconFive.setAttribute("src", "https://openweathermap.org/img/wn/" + data.list[29].weather[0].icon + "@2x.png");
+                weatherIconSix.setAttribute("src", "https://openweathermap.org/img/wn/" + data.list[37].weather[0].icon + "@2x.png");
                 //getting and displaying temp, wind, and humidity
                 tempTwo.textContent = data.list[5].main.temp;
                 windTwo.textContent = data.list[5].wind.speed;

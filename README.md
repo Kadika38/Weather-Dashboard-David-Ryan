@@ -11,7 +11,7 @@ A weather dashboard that will run in the browser and feature dynamically updated
 
 ## Screenshot
 
-![Screenshot of Website](WorkDaySchedulerScreenshot.jpg)
+![Screenshot of Website](WeatherDashboardScreenshot.jpg)
 
 ## Link to Deployed Website
 
