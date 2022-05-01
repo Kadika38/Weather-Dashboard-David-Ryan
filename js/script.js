@@ -1,4 +1,4 @@
-//VARIABLES
+//So many variables
 var apikey = "252073c6764ac35c1362884795439edf";
 
 var btn = document.querySelector("#searchButton");

@@ -32,6 +32,28 @@ button:hover {
     border-color: black;
 }
 
+.useFull {
+    width: 100%;
+}
+
+.forecast {
+    width: 18%;
+    background-color: darkgray;
+    padding-left: 10px;
+}
+
+.wIconT {
+    width: 80px;
+    height: 80px;
+    margin-top: -10px;
+    margin-bottom: -25px;
+}
+
+.wIconL {
+    width: 80px;
+    height: 80px;
+}
+
 #searchButton {
     background-color: rgb(41, 166, 244);
     color: white;
@@ -61,10 +83,6 @@ button:hover {
     border-bottom-style: solid;
 }
 
-.useFull {
-    width: 100%;
-}
-
 #rightSec {
     display: none;
     width: 73%;
@@ -79,24 +97,6 @@ button:hover {
 #forecastsContainer {
     display: flex;
     justify-content: space-between;
-}
-
-.forecast {
-    width: 18%;
-    background-color: darkgray;
-    padding-left: 10px;
-}
-
-.wIconT {
-    width: 80px;
-    height: 80px;
-    margin-top: -10px;
-    margin-bottom: -25px;
-}
-
-.wIconL {
-    width: 80px;
-    height: 80px;
 }
 
 #uvIndexToday {
